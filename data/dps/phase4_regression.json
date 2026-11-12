@@ -1,0 +1,17 @@
+{
+  "n_total": 38,
+  "n_train": 26,
+  "n_val": 12,
+  "weights": {
+    "baseline_perf": 0.028,
+    "shift_sensitivity": 0.1012,
+    "quantization_gap": 0.0183,
+    "calibration_score": 0.0013,
+    "intercept": 0.2341
+  },
+  "r2_train": 0.9327,
+  "r2_val": 0.0725,
+  "r2_train_shift_sensitivity_only": 0.895,
+  "spearman_rho": 0.8671,
+  "spearman_p": 0.0003
+}

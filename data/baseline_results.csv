@@ -1,0 +1,46 @@
+model_key,model_name,tier,domain,task,n_samples,accuracy,f1_macro,ece_proxy,latency_ms_mean,latency_ms_std,status,error_msg,timestamp
+gemma3,Gemma 3 4B,fp16,general_nlp,sentiment,50,0.94,0.9398,0.8014,390.51,217.1,ok,,2026-08-27T08:35:04
+gemma3,Gemma 3 4B,fp16,financial_nlp,sentiment,50,0.58,0.4509,0.5796,927.99,668.68,ok,,2026-08-27T08:36:08
+gemma3,Gemma 3 4B,fp16,structured_reasoning,math,50,0.24,0.1591,0.76,6629.79,5471.96,ok,,2026-08-27T08:41:41
+gemma3,Gemma 3 4B,int8,general_nlp,sentiment,50,0.94,0.9398,0.659,558.47,24.29,ok,,2026-08-27T08:42:53
+gemma3,Gemma 3 4B,int8,financial_nlp,sentiment,50,0.58,0.4509,0.5783,2148.72,1718.95,ok,,2026-08-27T08:45:00
+gemma3,Gemma 3 4B,int8,structured_reasoning,math,50,0.16,0.1015,0.84,13554.87,12481.73,ok,,2026-08-27T08:56:19
+gemma3,Gemma 3 4B,int4,general_nlp,sentiment,50,0.94,0.9398,0.8257,269.49,32.22,ok,,2026-08-27T08:56:55
+gemma3,Gemma 3 4B,int4,financial_nlp,sentiment,50,0.56,0.3617,0.5595,1148.77,853.29,ok,,2026-08-27T08:58:03
+gemma3,Gemma 3 4B,int4,structured_reasoning,math,50,0.12,0.0946,0.88,5617.78,4870.81,ok,,2026-08-27T09:02:45
+mistral7b,Mistral 7B,fp16,general_nlp,sentiment,50,0.84,0.3529,0.1521,345.54,279.72,ok,,2026-08-27T09:05:37
+mistral7b,Mistral 7B,fp16,financial_nlp,sentiment,50,0.68,0.6282,0.3167,848.21,362.14,ok,,2026-08-27T09:06:25
+mistral7b,Mistral 7B,fp16,structured_reasoning,math,50,0.58,0.4667,0.42,9073.91,1167.4,ok,,2026-08-27T09:14:00
+mistral7b,Mistral 7B,int8,general_nlp,sentiment,50,0.82,0.344,0.1742,1213.17,870.02,ok,,2026-08-27T09:16:14
+mistral7b,Mistral 7B,int8,financial_nlp,sentiment,50,0.68,0.6597,0.3408,2895.87,1077.29,ok,,2026-08-27T09:19:04
+mistral7b,Mistral 7B,int8,structured_reasoning,math,50,0.5,0.3415,0.5,27629.96,3553.58,ok,,2026-08-27T09:42:07
+mistral7b,Mistral 7B,int4,general_nlp,sentiment,50,0.84,0.6077,0.1495,375.52,214.07,ok,,2026-08-27T09:42:46
+mistral7b,Mistral 7B,int4,financial_nlp,sentiment,50,0.8,0.733,0.2178,983.24,490.48,ok,,2026-08-27T09:43:45
+mistral7b,Mistral 7B,int4,structured_reasoning,math,50,0.52,0.4074,0.48,10980.37,1447.53,ok,,2026-08-27T09:52:55
+llama31,Llama 3.1 8B,fp16,general_nlp,sentiment,50,0.96,0.9597,0.047,169.73,7.82,ok,,2026-08-27T09:56:23
+llama31,Llama 3.1 8B,fp16,financial_nlp,sentiment,50,0.62,0.3839,0.3969,994.9,280.72,ok,,2026-08-27T09:57:19
+llama31,Llama 3.1 8B,fp16,structured_reasoning,math,50,0.72,0.5803,0.28,9361.27,1297.23,ok,,2026-08-27T10:05:09
+llama31,Llama 3.1 8B,int8,general_nlp,sentiment,50,0.96,0.9597,0.0515,401.99,14.06,ok,,2026-08-27T10:07:00
+llama31,Llama 3.1 8B,int8,financial_nlp,sentiment,50,0.66,0.4054,0.3584,2154.47,701.87,ok,,2026-08-27T10:09:04
+llama31,Llama 3.1 8B,int8,structured_reasoning,math,50,0.62,0.4619,0.38,22984.97,2844.9,ok,,2026-08-27T10:28:15
+llama31,Llama 3.1 8B,int4,general_nlp,sentiment,50,0.98,0.9799,0.0402,329.32,6.15,ok,,2026-08-27T10:29:08
+llama31,Llama 3.1 8B,int4,financial_nlp,sentiment,50,0.62,0.3302,0.3907,1235.55,307.64,ok,,2026-08-27T10:30:25
+llama31,Llama 3.1 8B,int4,structured_reasoning,math,50,0.74,0.5775,0.26,10994.03,2035.94,ok,,2026-08-27T10:39:36
+qwen25,Qwen 2.5 3B,fp16,general_nlp,sentiment,50,0.96,0.9599,0.0382,144.42,55.56,ok,,2026-08-27T10:40:53
+qwen25,Qwen 2.5 3B,fp16,financial_nlp,sentiment,50,0.4,0.4369,0.6231,1041.25,18.75,ok,,2026-08-27T10:41:50
+qwen25,Qwen 2.5 3B,fp16,structured_reasoning,math,50,0.32,0.2305,0.68,9739.64,838.49,ok,,2026-08-27T10:49:58
+qwen25,Qwen 2.5 3B,int8,general_nlp,sentiment,50,0.96,0.9599,0.0419,552.94,16.43,ok,,2026-08-27T10:51:01
+qwen25,Qwen 2.5 3B,int8,financial_nlp,sentiment,50,0.4,0.43,0.5904,3867.24,61.92,ok,,2026-08-27T10:54:33
+qwen25,Qwen 2.5 3B,int8,structured_reasoning,math,50,0.32,0.216,0.68,35324.75,1653.37,ok,,2026-08-27T11:24:01
+qwen25,Qwen 2.5 3B,int4,general_nlp,sentiment,50,0.94,0.94,0.053,241.52,11.15,ok,,2026-08-27T11:24:32
+qwen25,Qwen 2.5 3B,int4,financial_nlp,sentiment,50,0.56,0.5119,0.4366,1722.73,24.31,ok,,2026-08-27T11:26:08
+qwen25,Qwen 2.5 3B,int4,structured_reasoning,math,50,0.48,0.3493,0.52,14106.56,2279.71,ok,,2026-08-27T11:37:55
+smollm,SmolLM 1.7B,fp16,general_nlp,sentiment,50,0.96,0.9599,0.1914,83.26,22.69,ok,,2026-08-27T11:38:30
+smollm,SmolLM 1.7B,fp16,financial_nlp,sentiment,50,0.6,0.25,0.5167,118.73,3.73,ok,,2026-08-27T11:38:39
+smollm,SmolLM 1.7B,fp16,structured_reasoning,math,50,0.44,0.2806,0.56,4894.67,1135.73,ok,,2026-08-27T11:42:45
+smollm,SmolLM 1.7B,int8,general_nlp,sentiment,50,0.96,0.9597,0.1962,303.48,13.98,ok,,2026-08-27T11:43:22
+smollm,SmolLM 1.7B,int8,financial_nlp,sentiment,50,0.6,0.25,0.5258,448.39,16.06,ok,,2026-08-27T11:43:56
+smollm,SmolLM 1.7B,int8,structured_reasoning,math,50,0.42,0.2574,0.58,15127.63,3864.72,ok,,2026-08-27T11:56:34
+smollm,SmolLM 1.7B,int4,general_nlp,sentiment,50,0.94,0.9394,0.2262,152.63,5.27,ok,,2026-08-27T11:56:55
+smollm,SmolLM 1.7B,int4,financial_nlp,sentiment,50,0.6,0.25,0.499,217.38,13.49,ok,,2026-08-27T11:57:12
+smollm,SmolLM 1.7B,int4,structured_reasoning,math,50,0.48,0.3264,0.52,6951.77,1810.08,ok,,2026-08-27T12:03:01

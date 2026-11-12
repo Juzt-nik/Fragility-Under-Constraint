@@ -1,0 +1,21 @@
+key,name,domain,shift,hw_acc,t4_acc,delta_acc,hw_lat,t4_lat,lat_ratio,hw_lat_std
+smollm,SmolLM 1.7B,general_nlp,baseline,1.0,0.96,0.04,141,74.36,1.9,203
+smollm,SmolLM 1.7B,general_nlp,noise_low,0.9,0.86,0.04,61,79.79,0.76,8
+smollm,SmolLM 1.7B,structured_reasoning,baseline,0.2,0.44,-0.24,3519,4421.91,0.8,561
+smollm,SmolLM 1.7B,structured_reasoning,noise_low,0.2,0.27,-0.07,3570,4947.57,0.72,578
+gemma3,Gemma 3 4B,general_nlp,baseline,1.0,0.94,0.06,441,387.56,1.14,189
+gemma3,Gemma 3 4B,general_nlp,noise_low,1.0,0.86,0.14,532,397.74,1.34,243
+gemma3,Gemma 3 4B,structured_reasoning,baseline,0.4,0.24,0.16,10193,6584.22,1.55,5957
+gemma3,Gemma 3 4B,structured_reasoning,noise_low,0.1,0.13,-0.03,6800,6403.59,1.06,5383
+qwen25,Qwen 2.5 3B,general_nlp,baseline,1.0,0.96,0.04,139,136.23,1.02,28
+qwen25,Qwen 2.5 3B,general_nlp,noise_low,0.7,0.72,-0.02,132,134.88,0.98,25
+qwen25,Qwen 2.5 3B,structured_reasoning,baseline,0.2,0.32,-0.12,7614,9295.8,0.82,415
+qwen25,Qwen 2.5 3B,structured_reasoning,noise_low,0.1,0.25,-0.15,8474,9505.74,0.89,617
+mistral7b,Mistral 7B,general_nlp,baseline,0.9,0.84,0.06,5686,347.18,16.38,6006
+mistral7b,Mistral 7B,general_nlp,noise_low,0.9,0.68,0.22,8223,464.91,17.69,6638
+mistral7b,Mistral 7B,structured_reasoning,baseline,0.4,0.58,-0.18,93068,9107.96,10.22,8046
+mistral7b,Mistral 7B,structured_reasoning,noise_low,0.2,0.38,-0.18,95663,9152.53,10.45,8584
+llama31,Llama 3.1 8B,general_nlp,baseline,1.0,0.96,0.04,6017,182.55,32.96,576
+llama31,Llama 3.1 8B,general_nlp,noise_low,0.8,0.85,-0.05,6316,180.69,34.95,501
+llama31,Llama 3.1 8B,structured_reasoning,baseline,0.6,0.72,-0.12,126254,9396.27,13.44,10519
+llama31,Llama 3.1 8B,structured_reasoning,noise_low,0.4,0.44,-0.04,127300,9745.38,13.06,13779
